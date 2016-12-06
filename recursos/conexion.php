@@ -2,7 +2,7 @@
 
 global $host,$user,$pass,$database;
 
-$host='mysql.hostinger.es';
+$host="mysql.hostinger.es";
 $user="u296913487_root";
 $pass="desconocido1";
 $database="u296913487_cel";
