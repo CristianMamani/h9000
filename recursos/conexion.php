@@ -1,14 +1,6 @@
 <?php 
 
-global $host,$user,$pass,$database,$link;
-
-$host="mysql.hostinger.es";
-$user="u296913487_root";
-$pass="desconocido1";
-$database="u296913487_cel";
-
-$link=mysqli_connect($host,$user,$pass) or die ("conexión fallida");
-
-mysqli_select_db($link,$database) or die ("error al conectarse con la base de datos".mysqli_error($link));
+$conexion = mysql_connect('mysql.hostinger.es', 'u296913487_root','desconocido1');
+mysql_select_db('u296913487_cel', $conexion);
 
 ?>
